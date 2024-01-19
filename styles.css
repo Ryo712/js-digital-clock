@@ -1,0 +1,20 @@
+body {
+    margin: 0; /* デフォルトのマージンを削除 */
+    padding: 0; /* デフォルトのパディングを削除 */
+    display: flex;
+    justify-content: center; /* 横方向の中央に配置 */
+    align-items: center; /* 縦方向の中央に配置 */
+    height: 100vh;
+    background-color: #f3f3f3;
+    font-family: 'Arial', sans-serif;
+}
+
+#clock {
+    font-size: 72px;
+    color: #333;
+    /* 以下のスタイルを削除またはコメントアウト */
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+}
