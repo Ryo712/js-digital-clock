@@ -18,3 +18,10 @@ body {
     /* left: 50%; */
     /* transform: translate(-50%, -50%); */
 }
+
+#clock-label {
+    font-size: 30px; /* または任意のサイズ */
+    text-align: center;
+    margin-bottom: 10px; /* 時計との間隔を調整 */
+    color: #333; /* または任意の色 */
+}
