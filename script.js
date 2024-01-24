@@ -4,6 +4,7 @@ function updateClock() {
     const minutes = String(now.getMinutes()).padStart(2, '0');
     const seconds = String(now.getSeconds()).padStart(2, '0');
 
+    // 「です。」は別の要素として追加するため、ここでは追加しない
     const timeString = `${hours}:${minutes}:${seconds}`;
     document.getElementById('clock').textContent = timeString;
 }

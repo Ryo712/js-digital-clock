@@ -10,13 +10,8 @@ body {
 }
 
 #clock {
-    font-size: 72px;
-    color: #333;
-    /* 以下のスタイルを削除またはコメントアウト */
-    /* position: absolute; */
-    /* top: 50%; */
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
+    display: inline; /* インライン要素として表示 */
+    font-size: 50px;/* 時計のフォントサイズ */
 }
 
 #clock-label {
@@ -25,3 +20,11 @@ body {
     margin-bottom: 10px; /* 時計との間隔を調整 */
     color: #0505f5; /* または任意の色 */
 }
+
+#suffix {
+    display: inline; /* インライン要素として表示 */
+    font-size: 30px; /* フォントサイズを30pxに設定 */
+    color: #0000ff; /* 文字色を青に設定 */
+    margin-left: 10px; /* 時刻との間に少しスペースを入れる */
+}
+
